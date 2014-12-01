@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=0.5, minimal-ui">
+    <title>The Birds and the Bees</title>
+
+    <!--Style Sheet link-->
+    <link href="style.css" rel="stylesheet">
+  </head>
+<body>
+  
+  <!--Buttons-->
+  <div class="hummingbird">
+  <button type="button" onClick="onClickHB()"><img src="images/hummingbird.png" id="hummingbird" alt="hummingbird"></button>
+    </div>
+    
+  <div class="bee">
+  <button type="button" onClick="onClickBee()"><img src="images/bee.png" id="bee" alt="bee"></button>
+  </div>
+ 
+  <p>Number of Hummingbirds Observed: <a id="clicksHB">0</a></p>  
+  <p>Number of Bees Observed: <a id="clicksBee">0</a></p>
+
+  
+  
+  <!--Javascript-->
+ <script type="text/javascript">
+    var clicks = 0;
+    function onClickHB() {
+        clicks += 1;
+        document.getElementById("clicksHB").innerHTML = clicks;
+    };
+   
+    var clicks = 0;
+    function onClickBee() {
+        clicks += 1;
+        document.getElementById("clicksBee").innerHTML = clicks;
+    };
+    </script>
+</body>
+</html> 
