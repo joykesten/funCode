@@ -6,9 +6,19 @@
     <title>The Birds and the Bees</title>
 
     <!--Style Sheet link-->
-    <link href="style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
 <body>
+  
+  <h1>The Birds and the Bees</h1>
+  
+  <ol>
+    <label><strong>Directions:</strong></label>
+    <li>Find a quiet seat in the garden.</li>
+    <li>Press the timer button.</li>
+    <li>Each time you observe a new hummingbird enter the garden click the button for the bird. Do the same for each bee you observe.</li>
+    <li>When the timer goes off, record the final numbers in your garden journal.</li>
+  </ol> <br>
   
   <!--Buttons-->
   <div class="hummingbird">
@@ -22,7 +32,7 @@
   <p>Number of Hummingbirds Observed: <a id="clicksHB">0</a></p>  
   <p>Number of Bees Observed: <a id="clicksBee">0</a></p>
 
-  
+  <button id="timer" onclick="setInterval(function(){alert('Your 15 Minutes is Up')}, 900000);">15 Minute Timer</button>
   
   <!--Javascript-->
  <script type="text/javascript">
@@ -37,6 +47,7 @@
         clicks += 1;
         document.getElementById("clicksBee").innerHTML = clicks;
     };
+    
     </script>
 </body>
 </html> 
