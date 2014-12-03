@@ -1,0 +1,140 @@
+/***********************************************
+Top bar color 
+***********************************************/
+
+html {
+	border-top: 20px solid #f6b86a;
+  max-width: 1030px;
+  margin: auto;
+}
+
+/***********************************************
+Body styling 
+***********************************************/
+
+body {
+	margin: 0 auto;
+	padding: 20px 20px;
+	font-size: 1.3em;
+	line-height: 1.6em;
+  font-family: 'Open Sans', sans-serif;
+	color: #777;
+	font-weight: 300;
+}
+
+/***********************************************
+Header styling 
+***********************************************/
+
+div {
+  display: block; 
+}
+
+td, tr {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+.logo{
+  width: 90px;
+}
+
+#search {
+  width: 449px;
+  height: 35px;
+  vertical-align: bottom;
+  margin-bottom: 10px;
+}
+
+#categories {
+  vertical-align: middle;
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+  font-size: 0.7em;
+  padding: 3px 0;
+  margin-bottom: 10px;
+}
+
+#submit {
+  width: 96px;
+  height: 40px;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+.fall {
+  width:400px;
+}
+
+#fallDiv {
+  float: left;
+}
+
+#fallDiv p {
+  max-width: 440px;
+  font-size: 0.75em;
+  line-height: 1.4em;
+}
+
+#pieDiv p {
+  margin-left: 20px;
+  max-width: 440px;
+  font-size: 0.75em;
+  line-height: 1.4em;
+  float: right;
+}
+
+/***********************************************
+Nav
+***********************************************/
+nav {
+  margin-bottom: 10px;
+  background-color: #fc5a96;
+  font-size: 0.6em;
+  max-width: 1020px;
+}
+
+a {
+  padding: 10px 13px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+img {
+  width: 990px;
+}
+
+/***********************************************
+Headline styling 
+***********************************************/
+h1 {
+  font-family: 'Anton', sans-serif;
+	font-size: 3em;
+	line-height: .5em;
+	color: #fc5a96;
+}
+
+h2 {
+	font-size: 1em;
+	line-height: 1em;
+	font-style: oblique;
+	color: #E31931;
+
+}
+
+h3 {
+	font-size: 1.2em;
+	line-height: 1em;
+	font-weight: oblique;
+  color: #34DDDD;
+}
+
+h4 {
+  font-family: Helvetica Neue, Hevetica;
+  font-size: 1em;
+  font-weight: 100;
+  color: #34DDDD;
+}
+
