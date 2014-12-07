@@ -9,9 +9,11 @@
     <link href="style.css" rel="stylesheet">
   </head>
 <body>
-  
+  <!--Title-->
   <h1>The Birds and the Bees</h1>
   
+    
+  <!--Directions-->
   <ol>
     <label><strong>Directions:</strong></label>
     <li>Find a quiet seat in the garden.</li>
@@ -19,7 +21,9 @@
     <li>Each time you observe a new hummingbird enter the garden click the button for the bird. Do the same for each bee you observe.</li>
     <li>When the timer goes off, record the final numbers in your garden journal.</li>
   </ol> <br>
-  
+    
+
+    <!--Student information-->
    <form>
     <label>Student Information</label>
       <input type="text" value="Location">
@@ -27,6 +31,7 @@
       <input type="time"> 
   </form>
   
+    
   <!--Buttons-->
   <div class="hummingbird">
   <button type="button" onClick="onClickHB()"><img src="images/hummingbird.png" id="hummingbird" alt="hummingbird"></button>
@@ -36,8 +41,9 @@
   <button type="button" onClick="onClickBee()"><img src="images/bee.png" id="bee" alt="bee"></button>
   </div>
  
-  <p>Number of Hummingbirds Observed: <a id="clicksHB">0</a></p>  
   <p>Number of Bees Observed: <a id="clicksBee">0</a></p>
+  <p>Number of Hummingbirds Observed: <a id="clicksHB">0</a></p>  <br>
+ 
 
   <button id="timer" onclick="setInterval(function(){alert('Your 15 Minutes is Up')}, 900000);">15 Minute Timer</button>
   
