@@ -14,7 +14,7 @@ You'll be working mostly in the style.css file for this challenge.
 
 ###HTML
 
-To add your own images, find the comments and tags in the HTML that look like this.
+To add your own images, find the comments and tags in the HTML that look like this:
 ```
 <!-- Collection Image -->
   <div style="background: #ececec; border: 1px solid #ddd; width: 471px; height: 345px; box-sizing:border-box;"></div>
