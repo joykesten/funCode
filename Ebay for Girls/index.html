@@ -1,103 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    <meta charset="utf-8">
-    <title>Ebay Remix</title>
-    <meta name="viewport" content="width=1220">
-    <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel="stylesheet" type="text/css">
-    <link href="style.css" rel="stylesheet">
-    <link href="normalize.css" rel="stylesheet">
-  </head>   
-  
-  <body> 
-    <header>
-      <div class="header">
-      
-       <tr>
-          <td><img src="img/gina-Ebay.jpg" alt="ebay" class="logo"></td>
-          
-          <td><input type="text" placeholder="Search..." id="search"></td>
-       
-          <td>
-            <select id="categories" name="categories">
-            <label>All Categories
-              <option value="">Antiques</option>
-              <option value="">Art</option>
-              <option value="">Baby</option>
-              <option value="">Business &#38; Industrial</option>
-              <option value="">Cameras &#38; Photo</option>
-              <option value="">Cell Phones &#38; Accessories</option>
-              <option value="">Clothing, Shoes &#38; Accessories</option>
-              <option value="">Coins &#38; Paper Money</option>
-              <option value="">Collectibles</option>
-              <option value="">Computers/Tablets &#38; Networking</option>
-              <option value="">Consumer Electronics</option>
-              <option value="">Crafts</option>
-              <option value="">Dolls &#38; Bears</option>
-              <option value="">DVDs &#38; Movies</option>
-              <option value="=">eBay Motors</option>
-              <option value="">Entertainment Memorabilia</option>
-              <option value="">Gift Cards &#38; Coupons</option>
-              <option value="">Health &#38; Beauty</option>
-              <option value="">Home &#38; Garden</option>
-              <option value="">Jewlery &#38; Watches</option>
-              <option value="">Music</option>
-              <option value="=">Personal Instruments &#38; Gear</option>
-              <option value="">Pet Supplies</option>
-              <option value="">Pottery &#38; Glass</option>
-              <option value="">Real Estate</option>
-              <option value="">Specialty Services</option>
-              <option value="">Sporting Goods</option>
-              <option value="">Sprots mem, Cards &#38; Fan Shop</option>
-              <option value="">Stamps</option>
-              <option value="">Tickets &#38; Experiences</option>
-              <option value="">Toys &#38; Hobbies</option>
-              <option value="">Travel</option>
-              <option value="">Video Games &#38; Consoles</option>
-              <option value="">Everything Else</option>
-            </label>
-          </select></td>
-         
-        <td><input id="submit" type="submit" value="Search"></td> 
-        </tr>
+<head>
+	<meta charset="UTF-8">
+	<title>Ebay Challenge</title>
+
+	<!-- This is the stylesheet that sets the structure of the page -->
+	<link rel="stylesheet" href="layout.css">
+
+	<!-- This is the stylesheet we'll be working with -->
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	
+<!-- The top most bar on ebay's homepage -->
+<nav class="top-navigation">
+  <div class="wrapper">
+  	<ul class="align-left">
+      <li>Hi! Sign in or register</li>
+      <li>Daily Deals</li>
+      <li>Gift Cards</li>
+      <li>Sell</li>
+      <li>Help &amp; Contact</li>
+    </ul>
+    <ul class="align-right">
+      <li>My eBay</li>
+    </ul>
+  </div>
+</nav>
+
+<div class="wrapper">
+
+	<!-- The homepage header -->
+	<header class="clearfix">
+
+		<!-- Ebay's Logo -->
+		<a href="#" class="logo align-left">Ebay</a>
+
+		<!-- Shop by Category dropdown -->
+
+		<!-- Search bar -->
+    <div class="search align-right">
+      <input type="text" class="gh-tb ui-autocomplete-input" size="50" maxlength="300" placeholder="Search..." id="gh-ac" name="_nkw" autocapitalize="off" autocorrect="off" spellcheck="false" autocomplete="off" aria-haspopup="false">
+      <select title="Select a category for search" class="gh-sb gh-sprRetina" size="1" id="gh-cat" name="_sacat"><option selected="selected" value="0">All Categories</option><option value="20081">Antiques</option><option value="550">Art</option><option value="2984">Baby</option><option value="267">Books</option><option value="12576">Business &amp; Industrial</option><option value="625">Cameras &amp; Photo</option><option value="15032">Cell Phones &amp; Accessories</option><option value="11450">Clothing, Shoes &amp; Accessories</option><option value="11116">Coins &amp; Paper Money</option><option value="1">Collectibles</option><option value="58058">Computers/Tablets &amp; Networking</option><option value="293">Consumer Electronics</option><option value="14339">Crafts</option><option value="237">Dolls &amp; Bears</option><option value="11232">DVDs &amp; Movies</option><option value="6000">eBay Motors</option><option value="45100">Entertainment Memorabilia</option><option value="172008">Gift Cards &amp; Coupons</option><option value="26395">Health &amp; Beauty</option><option value="11700">Home &amp; Garden</option><option value="281">Jewelry &amp; Watches</option><option value="11233">Music</option><option value="619">Musical Instruments &amp; Gear</option><option value="1281">Pet Supplies</option><option value="870">Pottery &amp; Glass</option><option value="10542">Real Estate</option><option value="316">Specialty Services</option><option value="888">Sporting Goods</option><option value="64482">Sports Mem, Cards &amp; Fan Shop</option><option value="260">Stamps</option><option value="1305">Tickets &amp; Experiences</option><option value="220">Toys &amp; Hobbies</option><option value="3252">Travel</option><option value="1249">Video Games &amp; Consoles</option><option value="99">Everything Else</option></select>
+      <input type="submit" class="btn btn-prim gh-spr" id="gh-btn" value="Search">
+      <a title="Advanced Search" href="http://www.ebay.com/sch/ebayadvsearch/?rt=nc" class="thrd" _sp="m570.l2614" id="gh-as-a">Advanced</a>
+    </div>
+
+	</header>
+
+	<!-- The main navigation bar -->
+	<nav class="main-navigation">
+
+		<ul>
+			<li><a href="#">Following</a></li>
+			<li><a href="#">Today</a></li>
+			<li><a href="#">Motors</a></li>
+			<li><a href="#">Fashion</a></li>
+			<li><a href="#">Electronics</a></li>
+			<li><a href="#">Collectibles &amp; Art</a></li>
+			<li><a href="#">Home &amp; Garden</a></li>
+			<li><a href="#">Sporting Goods</a></li>
+			<li><a href="#">Toys &amp; Hobbies</a></li>
+			<li><a href="#">Deals &amp; Gifts</a></li>
+		</ul>
+		
+	</nav>
+
+	<!-- The main content area -->
+	<div class="main">
+		
+		<div class="main-top">
+			
+		</div>
+
+		<div class="main-content">
+      <header class="main-content-header">
+		    <h2>Today's Featured Collections</h2>
+      </header>
+      <div class="collections-container container">
+        <div class="collection box-half">
+          <div class="collection-images"></div>
+          <div class="description container">
+            <div class="description-left box-two-thirds">
+              <h3>Get Cozy</h3>
+              <p>Cupcake ipsum dolor sit amet icing jelly-o. Tiramisu tiramisu soufflé tart cupcake sugar plum gummies. Donut wafer oat cake halvah caramels. Bear claw cookie cookie jelly beans cake applicake jelly beans. Jelly-o liquorice croissant. Pastry biscuit chocolate dragée sweet powder ice cream.</p>
+            </div>
+            <div class="description-right box-one-third">
+              <ul class="description-info">
+                <li>19 items</li>
+                <li>$13 - Up</li>
+                <li><a href="#">Shop Now</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
- 
-     <nav>
-       <a href=".html">Following</a>
-       <a href=".html">Today</a>
-       <a href=".html">Motors</a>
-       <a href=".html">Fashion</a>
-       <a href=".html">Electronics</a>
-       <a href=".html">Collectibles &#38; art</a>
-       <a href=".html">Home &#38; Garden</a>
-       <a href=".html">Sporting Goods</a>
-       <a href=".html">Toys &#38; Hobbies</a>
-       <a href=".html">Deals &#38; Gifts</a>
-    </nav>
-  </header>
-    
-    <div>
-      <img src="img/holidayPic.png" alt="holiday Picture">
-    </div>
-    <div>
-      <h1>Today's Featured Collections</h1><hr>
-    </div>
-    
-    <div id="fallDiv">
-      <img src="img/fall.png" alt="picture of a turkey" class="fall">
-      <h3>Picture Fall's Bounty</h3>
-      <p>Check out this antique print of peets, maples, and other sugar-bearing plants from 1899, a 1913 chromolithograph of persimmons, or a botanical print of common sage from 1780 - plus an antique Dutch wild turkey print from 1770.</p>
-    </div>
-     
-    <div id="pieDiv">
-      <img src="img/pies.png" alt="picture of a pie" class="fall">
-      <h3>Picture Fall's Bounty</h3>
-      <p>Check out this antique print of peets, maples, and other sugar-bearing plants from 1899, a 1913 chromolithograph of persimmons, or a botanical print of common sage from 1780 - plus an antique Dutch wild turkey print from 1770.</p>
-    </div>
-   
+        <div class="collection box-half">
+          <div class="collection-images"></div>
+          <div class="description container">
+            <div class="description-left box-two-thirds">
+              <h3>Fall Colors</h3>
+              <p>Topping muffin carrot cake macaroon jelly. Halvah wafer icing oat cake pastry. Jelly-o apple pie sesame snaps candy canes bonbon cookie. Dessert fruitcake chocolate cookie chocolate bar apple pie. Danish oat cake chupa chups marzipan icing cotton candy liquorice fruitcake. Chocolate bar danish pastry candy canes powder.</p>
+            </div>
+            <div class="description-right box-one-third">
+              <ul class="description-info">
+                <li>11 items</li>
+                <li>$11 - Up</li>
+                <li><a href="#">Shop Now</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="collection box-half">
+          <div class="collection-images"></div>
+          <div class="description container">
+            <div class="description-left box-two-thirds">
+              <h3>Warm Thoughts</h3>
+              <p>Jelly beans powder lemon drops apple pie donut sweet roll marzipan tootsie roll donut. Chocolate soufflé applicake pudding chocolate cake icing jelly-o topping. Carrot cake pastry jelly jelly-o chocolate bar cheesecake jelly cake. Lollipop carrot cake sesame snaps. Cake topping pudding dessert. Sugar plum croissant tiramisu icing.</p>
+            </div>
+            <div class="description-right box-one-third">
+              <ul class="description-info">
+                <li>17 items</li>
+                <li>$7 - Up</li>
+                <li><a href="#">Shop Now</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="collection box-half">
+          <div class="collection-images"></div>
+          <div class="description container">
+            <div class="description-left box-two-thirds">
+              <h3>Sugar Plum Fairies</h3>
+              <p>Donut cupcake bear claw biscuit oat cake pie ice cream ice cream. Lemon drops sesame snaps danish cake candy canes pie sesame snaps. Muffin cupcake bear claw. Tootsie roll bonbon carrot cake caramels topping tootsie roll tiramisu.</p>
+            </div>
+            <div class="description-right box-one-third">
+              <ul class="description-info">
+                <li>15 items</li>
+                <li>$10 - Up</li>
+                <li><a href="#">Shop Now</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    
+      <header class="main-content-header">
+        <h2>Today's Trending Collections</h2>
+        <a href="#">Browse all trending collections</a>
+      </header>
+      <div class="trending-container container">
+        <div class="trending box-third">
+          
+        </div>
+        <div class="trending box-third"></div>
+        <div class="trending box-third"></div>
+        <div class="trending box-third"></div>
+        <div class="trending box-third"></div>
+        <div class="trending box-third"></div>
+      </div>
 
-  </body>
+		</div>
+
+	</div>
+
+</div>
+
+</body>
 </html>
