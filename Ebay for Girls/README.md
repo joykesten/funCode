@@ -12,6 +12,8 @@ You'll be working mostly in the style.css file for this challenge.
 
 ###CSS
 
+The style.css file comes with example css used to style basic elements on the ebay homepage. Try changing the colors and see what happens.
+
 ###HTML
 
 To add your own images, find the comments and tags in the HTML that look like this:
