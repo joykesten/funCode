@@ -1,8 +1,8 @@
 funCode
 =======
-This repository is for code in progress code. These are code snippets indended to be used by teachers to augment their existing curriculum.  
+This repository is for code in progress. The are code snippets in this repository are indended to be used by teachers to augment their existing curriculum. 
 
-As these code snippets become more polished, lesson plans and suplimental resources will become available. 
+As these code snippets become more polished, lesson plans, and suplimental resources will become available. 
 
 Please know the code in this repository changes frequently. 
 
