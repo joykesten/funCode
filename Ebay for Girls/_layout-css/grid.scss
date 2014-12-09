@@ -1,0 +1,58 @@
+.align-left {
+  float: left;
+}
+
+.align-right {
+  float: right;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+ 
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+.section {
+  @extend .clearfix
+}
+
+.box {
+  float: left;
+}
+
+.box-half, .box-one-third, .box-two-thirds, .box-fourth {
+  @extend .box;
+  box-sizing: border-box;
+}
+
+.box-half {
+  width: 50%;
+}
+
+.box-one-third {
+  width: 31%;
+}
+
+.box-one-third + .box-one-third {
+  margin-left: 3.5%;
+}
+
+.box-two-thirds {
+  width: 68%;
+}
+
+.box-two-thirds + .box-one-third {
+  margin-left: 1%;
+}
+
+.box-fourth {
+  width: 25%;
+}
