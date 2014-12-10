@@ -6,6 +6,23 @@ body {
 	
 }
 
+/*
+img {
+  border-radius: 5%
+}
+
+h2, h3 {
+  color: #0192b5;
+}
+*/
+
+.main-navigation a {
+  color: #555;
+  /*  color: #0192b5;*/
+  font-size: 12px;
+  border-bottom: solid 1px transparent;
+}
+
 /* Top Naviation */
 
 .top-navigation {
@@ -64,8 +81,10 @@ body {
 	/*Example CSS*/
   border-radius: 3px;
   color: #fff;
-	background: #00509d;
+  background: #00509d;
+/*  background: #0192b5;*/
   background: -webkit-gradient(linear,left top,left bottom,from(#0079bc),to(#00509d));
+/*  background: -webkit-gradient(linear,left top,left bottom,from(#0079bc),to(#0192b5));*/
   font-weight: 500;
   padding: 10px 15px 11px;
   text-shadow: 0 1px 0 rgba(0,0,0,.2);
@@ -75,7 +94,7 @@ body {
 .search-link {
 
 	/*Example CSS*/
-	color: #767676;
+  color: #767676;
   font-size: 12px;
 
 }
@@ -83,22 +102,15 @@ body {
 /* Main Navigation */
 
 .main-navigation {
-
+  
 	/*Example CSS*/
-	border-top: solid 1px;
+  border-top: solid 1px;
   border-bottom: solid 1px;
   border-color: #ddd;
 
 }
 
-.main-navigation a {
 
-	/*Example CSS*/
-	color: #555;
-  font-size: 12px;
-  border-bottom: solid 1px transparent;
-
-}
 
 /* Main Top */
 
@@ -107,7 +119,7 @@ body {
 }
 
 .main-hero-large-image {
-
+  /*border-radius: 5%;*/
 }
 
 .main-hero-right-top-image {
@@ -135,15 +147,13 @@ body {
 /* Featured Collections */
 
 .featured-section {
-
 }
 
 .featured-container {
-
 }
 
 .featured-item {
-
+  
 }
 
 .description {
