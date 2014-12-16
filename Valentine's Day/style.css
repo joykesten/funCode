@@ -1,21 +1,35 @@
 body {
-  background: lightpink;
+  background: #cc9de0;
 }
+
 
 div {
   width: auto;
   margin: 0 auto;
 }
 
-.title {
-  font-family: sans-serif;
-  text-align: center;
-}
-.heart2 {
-  float: right;
-}
-
 button {
   background: transparent;
   border: transparent;
 }
+
+.title {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 30px;
+}
+
+.heart1, .heart1 {
+	width:300px;
+	height:200px;
+	background-size: 300px 200px;
+  float: right;
+}
+
+.bigHeart {
+	width:500px;
+	height:500px;
+	background:url(heart.svg);
+	background-size:500px 500px;
+}
+

@@ -8,20 +8,20 @@
           <stop id="bottomColor" offset="0" stop-color="#FF00FF"/>
           <stop id="topColor" offset="0.7" stop-color="#b20162"/>
       </linearGradient>
-      <path id="backgroundColor" fill="url(#linearGradient)" d="M368.43 445.91c-2.16 0-3.92 1.76-3.92 3.92 0 4.4 4.44 5.56 7.46 9.9 2.86-4.32 7.46-5.64 7.46-9.9 0-2.16-1.76-3.92-3.92-3.92 -1.57 0-2.92 0.93-3.54 2.26C371.35 446.84 370 445.91 368.43 445.91z"/>
+        <path id="backgroundColor" fill="url(#linearGradient)" d="M368.43 445.91c-2.16 0-3.92 1.76-3.92 3.92 0 4.4 4.44 5.56 7.46 9.9 2.86-4.32 7.46-5.64 7.46-9.9 0-2.16-1.76-3.92-3.92-3.92 -1.57 0-2.92 0.93-3.54 2.26C371.35 446.84 370 445.91 368.43 445.91z"/>
     </g>
 
 <!-- Fill color and path for highlight on heart-->
     <g id="highlight" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
-    <g transform="translate(-134.06575,-225.79588)" inkscape:label="Layer 1">
-    <path fill="#FFFFFF" d="M368.04 447.64c-0.64 0-1.22 0.3-1.59 0.77 -0.28 0.35-0.44 0.79-0.44 1.27 0 0.45 0.09 0.84 0.25 1.18C366.1 449.6 366.93 448.08 368.04 447.64z"/>
+      <g transform="translate(-134.06575,-225.79588)" inkscape:label="Layer 1">
+        <path fill="#FFFFFF" d="M368.04 447.64c-0.64 0-1.22 0.3-1.59 0.77 -0.28 0.35-0.44 0.79-0.44 1.27 0 0.45 0.09 0.84 0.25 1.18C366.1 449.6 366.93 448.08 368.04 447.64z"/>
       </g>
     </g>
     
 
 <!-- Outline of heart -->
-      <g id="outline" transform="translate(-134.06575,-225.79588)"  >
-        <path id="outlineColor" fill="none" stroke="#ddd" stroke-width="1.01" d="M368.43 445.91c-2.16 0-3.92 1.76-3.92 3.92 0 4.4 4.44 5.56 7.46 9.9 2.86-4.32 7.46-5.64 7.46-9.9 0-2.16-1.76-3.92-3.92-3.92 -1.57 0-2.92 0.93-3.54 2.26C371.35 446.84 370 445.91 368.43 445.91z"/>
+      <g id="outline" transform="translate(-134.06575,-225.79588)">
+        <path id="outlineColor" fill="none" stroke="#ddd" stroke-width="1.1" d="M368.43 445.91c-2.16 0-3.92 1.76-3.92 3.92 0 4.4 4.44 5.56 7.46 9.9 2.86-4.32 7.46-5.64 7.46-9.9 0-2.16-1.76-3.92-3.92-3.92 -1.57 0-2.92 0.93-3.54 2.26C371.35 446.84 370 445.91 368.43 445.91z"/>
       </g>
   
 </svg>
