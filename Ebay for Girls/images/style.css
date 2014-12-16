@@ -1,0 +1,142 @@
+/***********************************************
+Top bar color 
+***********************************************/
+
+html {
+  border-top: 20px solid #f6b86a;
+  margin: auto;
+  max-width: 1030px;
+}
+
+/***********************************************
+Body styling 
+***********************************************/
+
+body {
+  color: #777;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  font-weight: 300;
+  line-height: 1.6em;
+  margin: 0 auto;
+  padding: 20px 20px; 
+}
+
+/***********************************************
+Header styling 
+***********************************************/
+
+div {
+  display: block; 
+}
+
+td, tr {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+.logo{
+  width: 90px;
+}
+
+#categories {
+  box-sizing: content-box;
+  font-size: 0.7em;
+  margin-bottom: 10px;
+  padding: 3px 0;
+  vertical-align: middle;
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+}
+
+#search {
+  height: 35px;
+  width: 449px;
+  vertical-align: bottom;
+  margin-bottom: 10px;
+}
+
+#submit {
+  height: 40px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  width: 96px;
+}
+
+/***********************************************
+Nav
+***********************************************/
+a {
+  padding: 10px 13px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+img {
+  width: 990px;
+}
+
+nav {
+  margin-bottom: 10px;
+  background-color: #fc5a96;
+  font-size: 0.6em;
+  max-width: 1020px;
+}
+
+/***********************************************
+Featured Collections 
+***********************************************/
+.fall {
+  width:400px;
+}
+
+#fallDiv {
+  float: left;
+}
+
+#fallDiv p {
+  font-size: 0.75em;
+  line-height: 1.4em;
+  max-width: 440px;
+}
+
+#pieDiv p {
+  float: right;
+  font-size: 0.75em;
+  line-height: 1.4em;
+  margin-left: 20px;
+  max-width: 440px;
+}
+
+/***********************************************
+Headline styling 
+***********************************************/
+h1 {
+  color: #fc5a96;
+  font-family: 'Anton', sans-serif;
+  font-size: 3em;
+  line-height: .5em;
+}
+
+h2 {
+  color: #E31931;
+  font-size: 1em;
+  font-style: oblique;
+  line-height: 1em;
+}
+
+h3 {
+  color: #34DDDD;
+  font-size: 1.2em;
+  font-weight: oblique;
+  line-height: 1em;
+}
+
+h4 {
+  color: #34DDDD;
+  font-family: Helvetica Neue, Hevetica;
+  font-size: 1em;
+  font-weight: 100;
+}
+

@@ -1,0 +1,21 @@
+body {
+  background: lightpink;
+}
+
+div {
+  width: auto;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: sans-serif;
+  text-align: center;
+}
+.heart2 {
+  float: right;
+}
+
+button {
+  background: transparent;
+  border: transparent;
+}
