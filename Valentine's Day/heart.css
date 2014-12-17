@@ -39,6 +39,11 @@
             transform-origin :100% 100%;
 }
 
+#heart:hover {
+    background: #eff23c;
+
+}
+
 #heart:before {
   content: "Click";
 }

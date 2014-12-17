@@ -1,0 +1,33 @@
+html {
+	background: #F6F6F6;
+}
+
+#flowerPetals {
+	margin: 10px;
+}
+
+
+
+
+.trending-header {
+
+	/*Example CSS*/
+	padding: 10px;
+	color: pink;
+
+}
+
+
+.trending-header h3 {
+	/*Example CSS*/
+	margin: 0;
+}
+
+
+.trending-item {
+
+	/*Example CSS*/
+	background: #fff;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+}
