@@ -18,20 +18,20 @@ Choose the elements that you think are most important to work on.  Discuss the f
 
 ###3. Research
 
-Research what is already being done about the problem, who should know you're working on this issues. 
+Research what is already being done about the problem.  
 
 Questions to consider: Who is going to be using what you are making?  How does your audience effect your design?  Are there any databases or APIs that you could access?  Or are you building the database?  Does it need to be encripted and if so who should have access and why?  Who else needs to be involved to make your solutino successful?  
 
 ###4. Roles
 
-Learning how to work together is difficult. No matter what happens, act with kindness, remember to be oper minded, and work hard. 
+Learning how to work together is difficult. No matter what happens, act with kindness, remember to be open minded, and work hard. 
 
-- Most supportive (and/or least technical skills)? You'll be in charge of the whole scope of the project, including keeping to the schedule below, dealing with needs or blocks that arise, helping in all arease of the project, etc. 
-- Most followers on social media? You'll be in charge of marketing and PR. Who needs to know about your product? how are you going to tell them? What do you need from them to make your product successful? How are you going to get that? 
-- Most empathetic (and/or fashionable)? You'll be in charge of design. Design is very important, it's how the user is going to intereact with the product and will determin if people want to use your product again and again. Make it easy, make it simple, make it intuative. Think about your audience. 
-- Best front end skills? You'll be in charge of bulding the website. HTML, CSS, and JavaScript are a must.  Use frameworks and 3rd party solutions to the hardest problems (need [authentication](https://www.secsign.com/two-factor-authentication/) for example, don't do it yourself, use a third party service, but know their terms and be able to defend your choice to your group.)
-- Problem Solver (and/or knows backend)? You'll be in charge of setting up the backend and working with the database.  Think about storage, think about speed, think about service. You're the logic of the group, use your powers for good.  
-- Don't know where you fit? Pick your posion, everyone will need help. If you want to learn something, this is your chance. 
+- Most supportive (and/or least technical skills)? You'll be in charge of the whole scope of the project, including keeping to the schedule below, dealing with needs or blocks that arise, helping in all areas of the project, etc. 
+- Most followers on social media? You'll be in charge of marketing and PR. Who needs to know about your product? how are you going to tell them? What do you need from them to make your product successful? How are you going to get that? How are you going to drive people to your product? You should have a lot of content to share at the end.  Think about your audience.  
+- Most opinionated (and/or fashionable)? You'll be in charge of design. Design is very important, it's how the user is going to intereact with the product. Make it easy, make it simple, make it intuative. Think about your audience. 
+- Strongest front end skills? You'll be in charge of bulding the website. Use frameworks and 3rd party solutions when applicable (need [authentication](https://www.secsign.com/two-factor-authentication/) for example, don't do it yourself, use a third party service, but know their terms and be able to defend your choice to your group.)
+- Problem Solver (and/or knows backend)? You'll be in charge of setting up the backend and working with the database. How are you going to organize your data? What kinds of information do you need to get out of it? Think about storage, speed, and needs of your product.   
+- Don't know where you fit? Pick your poison, everyone will need help. If you want to learn something, this is your chance. 
 
 ###5. Schedule:
 
@@ -55,7 +55,7 @@ Break - eat, move around, etc
 
 15 minutes to report out on your progress, discuss next steps and test your product
 
-15 minutes to reflect on the project. Where you successful? Why or why not?  How can you make it better next time? How did you work together as a group?  How can you improve as a whole?  What issues came up that slowed you down? Was there something you didn't thaink about that would have helped you be more successful? 
+15 minutes to reflect on the project. Were you successful? Why or why not?  How can you make it better next time? How did you work together as a group?  How can you improve as a whole?  What issues came up that slowed you down? Was there something you didn't thaink about that would have helped you be more successful? 
 
 
 
