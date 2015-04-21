@@ -1,0 +1,114 @@
+/* Body styling */
+body {
+  background: #FD6A6E;
+  color: #fff;
+  font-family: Helvetica, Arial;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 1.65em;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 40px 10px;  
+}
+
+
+/* Logo Styling */
+.logo{
+  width: 100%;
+}
+
+.logo img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+/* Game Directions */
+.description {
+  text-align: center;
+  margin: 80px auto 40px;
+}
+
+
+
+/* Submit Button, Columns, Questions, and Inputs */
+form input[type=submit] {
+  background: #B5D269;
+  border: 0;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer; 
+  display: block;
+  font-size: 20px;
+  font-weight: bold;  
+  margin: 0 auto 60px;
+  padding: 1em 2em; 
+  text-align: center; 
+}
+
+.bucket {
+  display: inline-block;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.choice-bucket {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 33.333333%;
+}
+
+.choice-bucket input {
+  border: 0;
+  border-radius: 6px;
+  color: #BB475C;
+  font-size: 18px;
+  margin: 15px 4%;
+  outline: 0;
+  padding: 16px 0;
+  text-indent: 20px;
+  width: 92%;  
+}
+
+.highlight {
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 30px;
+  opacity: .8;
+}
+
+
+
+/* Answer Div */
+#answers {
+  margin: 60px 0;
+  background: #fff;
+  border-radius: 6px;
+  color: #BB475C;
+  transition: 1s linear;
+}
+
+#answers p {
+  max-width: 760px;
+  margin: auto;
+  padding: 80px 0;
+}
+
+#answers p span {
+  font-weight: bold;
+}
+
+
+.hide {
+  opacity: 0;
+  height: 0;
+}
+
+.show {
+  opacity: 1;
+  height: 100%;
+}
+
