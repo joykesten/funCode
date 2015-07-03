@@ -20,7 +20,7 @@ Choose the elements that you think are most important to work on.  Discuss the f
 
 Research what is already being done about the problem.  
 
-Questions to consider: Who is going to be using what you are making?  How does your audience effect your design?  Are there any databases or APIs that you could access?  Or are you building the database?  Does it need to be encripted and if so who should have access and why?  Who else needs to be involved to make your solutino successful?  
+Questions to consider: Who is going to be using what you are making?  How does your audience effect your design?  Are there any databases or APIs that you could access?  Or are you building the database?  Does it need to be encripted and if so who should have access and why?  Who else needs to be involved to make your solution successful?  
 
 ###4. Roles
 
