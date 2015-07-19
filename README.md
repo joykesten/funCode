@@ -6,6 +6,6 @@ As these code snippets become more polished, lesson plans, and suplimental resou
 
 Please know the code in this repository changes frequently. 
 
-If you have any questions or would like to know the status of a project please emial Joy at joy@teamtreehouse.com 
+If you have any questions or would like to know the status of a project please email Joy at joy@teamtreehouse.com 
 
 Thanks <3
